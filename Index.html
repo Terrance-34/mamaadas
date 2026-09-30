@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <span class="logo">Mama Ada's</span>
+    <a class="btn" href="#menu">Order now</a>
+  </header>
+
+  <div class="hero">
+    <div>
+      <h1>Cooked slow. Served like family.</h1>
+      <p>Jollof, ofada, pounded yam and pasta.</p>
+      <a class="btn" href="#menu">Order now</a>
+    </div>
+    <div class="plate"></div>
+  </div>
+
+  <main>
+    <section class="about">
+      <div>
+        <h2>From our pot to your plate</h2>
+        <p>We opened in 1983 with one job: put honest home cooking on the table for anyone who walked in. The recipes are the same, only the pots are bigger.</p>
+        <p>Come for lunch, bring the family on Sunday, or order in for the office.</p>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <b>40+</b>
+          <span>years of Nigerian cooking</span>
+        </div>
+        <div class="stat">
+          <b>15+</b>
+          <span>locations and growing</span>
+        </div>
+        <div class="stat">
+          <b>2,500+</b>
+          <span>happy customers</span>
+        </div>
+      </div>
+    </section>
+
+    <h2 id="menu">Best sellers</h2>
+
+    <div class="menu">
+      <div class="card">
+        <h3>Noble rice</h3>
+        <p>Smoky party rice.</p>
+        <p class="price">₦2,500</p>
+        <button class="add" data-name="Noble rice" data-price="2500">Add</button>
+      </div>
+
+      <div class="card">
+        <h3>Asun rice</h3>
+        <p>Rice with peppered goat meat.</p>
+        <p class="price">₦4,000</p>
+        <button class="add" data-name="Asun rice" data-price="4000">Add</button>
+      </div>
+
+      <div class="card">
+        <h3>Moi moi</h3>
+        <p>Steamed bean pudding.</p>
+        <p class="price">₦1,000</p>
+        <button class="add" data-name="Moi moi" data-price="1000">Add</button>
+      </div>
+
+      <div class="card">
+        <h3>Fried Rice</h3>
+        <p>Party Rice</p>
+        <p class="price">₦3,000</p>
+        <button class="add" data-name="Fried Rice" data-price="3000">Add</button>
+      </div>
+    </div>
+
+    <h2>Your order</h2>
+    <div class="cart-box">
+      <div id="cartList"></div>
+      <p class="total"><span>Total</span><span>₦<span id="count">0</span></span></p>
+      <button class="checkout">Checkout</button>
+    </div>
+  </main>
+
+  <section class="locations">
+    <h2>Find us near you</h2>
+    <div class="menu">
+      <div class="loc">
+        <span class="badge">Open</span>
+        <h3>Victoria Island</h3>
+        <p>Lagos</p>
+      </div>
+
+      <div class="loc">
+        <span class="badge">Open</span>
+        <h3>Abuja</h3>
+        <p>Keffi Expressway</p>
+      </div>
+
+      <div class="loc">
+        <span class="badge soon">Coming Soon</span>
+        <h3>Ikeja</h3>
+        <p>Allen Avenue</p>
+      </div>
+
+      <div class="loc">
+        <span class="badge soon">Coming Soon</span>
+        <h3>Akwa Ibom</h3>
+        <p>Oron Road</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Mama Ada's · Mon–Fri 7 AM–10 PM</p>
+    <p>Phone: +234 916 587 1309</p>
+  </footer>
+</body>
+</html>
